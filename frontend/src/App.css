@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+  display: flex;
+  height: 100vh;
+}
+
+.contentWrapper {
+  height: 100%;
+  width: 100%;
+}

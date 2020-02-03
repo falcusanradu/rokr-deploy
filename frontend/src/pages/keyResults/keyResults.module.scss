@@ -1,0 +1,74 @@
+.keyResults {
+  display: block;
+}
+
+.tableWrapper {
+  display: block;
+  padding: 50px;
+}
+
+th,
+td {
+  padding: 16px;
+}
+
+td {
+  color: #0000ff;
+}
+
+tr {
+  height: 78px;
+  background-color: #f4f4fb;
+}
+
+tr:nth-child(even) {
+  background-color: #f4f4fb73;
+}
+
+tr:hover {
+  background-color: #dadada;
+}
+
+.tableHeader {
+  font-size: 20px;
+  background-color: transparent;
+}
+
+.tableHeader:hover {
+  background-color: transparent;
+}
+.iconRow {
+  width: 30%;
+  text-align: right;
+}
+.red {
+  background-color: #dc421a;
+}
+
+.green {
+  background-color: #1adc48;
+}
+
+.amber {
+  background-color: #fcaa06;
+}
+
+.defaultButton {
+  height: 56px;
+  background-color: #736ff3;
+  color: white;
+  border-radius: 15px 15px;
+  margin: 20px;
+  border: none;
+  outline: none;
+}
+
+.defaultButton:hover,
+.defaultButton:active {
+  background-color: #080b73;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: center;
+}

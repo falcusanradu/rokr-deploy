@@ -1,0 +1,25 @@
+.root {
+  display: flex;
+}
+
+.link {
+  font-weight: bold;
+  color: black;
+  font-size: 25px;
+  padding: 5px;
+  text-decoration: none;
+  color: Black;
+  border-bottom: 1px solid grey;
+  padding-bottom: 1px;
+}
+.selected {
+  text-decoration-line: underline;
+  text-decoration-color: grey;
+}
+
+.removeLeftPadding {
+  padding-left: 0px;
+}
+.removeRightPadding {
+  padding-right: 0px;
+}
